@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Error Explainer",
+  "version": "1.0",
+  "description": "Explain programming errors instantly",
+
+  "action": {
+    "default_popup": "index.html"
+  },
+
+  "permissions": ["activeTab", "scripting"],
+
+  "host_permissions": ["<all_urls>"]
+}
